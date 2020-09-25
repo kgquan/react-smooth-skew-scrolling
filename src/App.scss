@@ -18,6 +18,13 @@ h2 {
 }
 
 .App {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+
   .scroll {
     padding: 2vh 0;
     pointer-events: none;
